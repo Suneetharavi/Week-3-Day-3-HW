@@ -1,0 +1,6 @@
+function computeArea(width, height) {
+    if (typeof width === 'number' && typeof height ==='number') return (width * height);
+    return 'Invalid Input';
+  }
+
+  console.log(computeArea(2, 4));

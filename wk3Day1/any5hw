@@ -94,12 +94,12 @@ console.log('\nProgram 7 Output\n')
 // longestStringInArray that takes an array of strings as an argument 
 // and returns the length of the longest string.
 
- console.log('\nProgram 8 Output'\n)
+ console.log('\nProgram 8 Output\n')
     let Stringarray=['hi','hello','welcome','HelloWorld'];
     const longestStringInArray=function(array){
         let max_str=array[0].length
         let ans=array[0]
-        for (let i = 1; i < array.length; i++) {
+        for (let i = 1; i <=array.length; i++) {
             let maxi = array[i].length;
             if (maxi > max_str) {
                 ans = array[i];

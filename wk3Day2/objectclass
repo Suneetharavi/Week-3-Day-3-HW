@@ -1,0 +1,174 @@
+
+// // // function sayHello() {
+// // //     console.log('hello');
+// // //     sayHello();
+// // // }
+// // // sayHello()
+// // console.log('hello');
+// // function printXTimes(n) {
+// //     // the base case
+// //     if (n < 0) return;
+// //     // the action
+// //     console.log(`${n} more prints to go`);
+// //     // the recursive call
+// //     printXTimes(n - 1);
+// // }
+// // printXTimes(4)
+
+
+// // // function fib(n) {
+// // //     if (n <= 1) return n;
+// // //     console.log(`I have to add ${n} to the stack`);
+// // //     return fib(n - 1) + fib(n - 2);
+// // // }
+// // // fib(4)
+// // // let memo = {};
+// // // function fibMemo(n) {
+// // //     if (n <= 1) return n;
+// // //     if (memo[n]) return memo[n];
+// // //     console.log(`I have to add ${n} to the stack`);
+// // //     let result = fibMemo(n - 1) + fibMemo(n - 2);
+// // //     memo[n] = result;
+// // //     return result;
+// // // }
+// // // fibMemo(4)
+// // function logA() 
+// // { console.log('A') }
+// // function logB() 
+// // { console.log('B') }
+// // function logC()
+// //  { console.log('C') }
+// // function logD()
+// //  { console.log('D') }
+
+// // // Click the "RUN" button to learn how this works!
+// // logA();
+// // setTimeout(logB, 0);
+// // Promise.resolve().then(logC);
+// // logD();
+// // var a=136;
+
+// // function vassweir()
+// // {
+// //     var a=12
+// //     console.log(a)
+// // }
+// // console.log(a)
+// function fib(n) {
+//     if (n <= 1) return n;
+//     console.log(`I have to add ${n} to the stack`);
+//     return fib(n - 1) + fib(n - 2);
+// }
+// fib(5)
+
+
+// let memo = {};
+// function fibMemo(n) {
+//     if (n <= 1) return n;
+//     if (memo[n]) return memo[n];
+//     console.log(`I have to add ${n} to the stack`);
+//     let result = fibMemo(n - 1) + fibMemo(n - 2);
+//     memo[n] = result;
+//     return result;
+// }
+// fibMemo(5)
+// const house = {
+// 	doors: 9
+// }
+// const house = {
+// 	doors: 9
+// }
+
+// console.log(house)
+
+// console.log(house)
+// house.windows = 30
+// console.log(house);
+// house.hasGarden = true;
+// house['livingroom']='TV'
+// console.log(house);
+// house[5]=4
+// console.log(house);
+
+// house['wall-color']="green"
+// console.log(house);
+
+// const mogwai  = {}
+
+// mogwai.name = 'Gizmo';
+
+// const mogwai = {}
+
+// mogwai = { name: 'Gizmo' }
+// const borough = {
+// 	name: "Brooklyn",
+// 	name: "The Bronx"
+// }
+// console.log(borough);
+
+// const obj = {
+// 	salutation: 'hi',
+// 	count:4
+// }
+// if (obj.salutation === "hi") {
+// 	console.log('ok');
+// }
+
+// for (let i = 0; i < obj.count; i++) {
+// 	console.log(i);
+// }
+// const obj = {
+// 	something:'wuttt'
+// }
+// if (obj.anotherthing){
+// 	console.log('ok');
+// } 
+
+// if (obj.something) {
+// 	console.log('ok');
+// }
+
+
+// else {
+// 	console.log('no go i dont have that property');
+// }
+
+//classes.js
+
+
+
+// class Vehicle {
+// 	constructor(vin, make,model) {
+// 		this.vin = vin;
+// 		this.make = make;
+//         this.model=model;
+// 	// return is not needed
+// 	// because the new object is returned by default
+// 	}
+// }
+
+// const plane = new Vehicle('X123Y', 'Boeing');
+
+
+class Vehicle {
+	// the constructor will always be called
+	constructor(vin, make, model) {
+		this.vin = vin;
+		this.make = make;
+		this.model = model;
+		this.running = false;  // default to false
+	}
+	start() {
+		this.running = true;
+		console.log('running...');
+	}
+
+    stop()
+    {
+        this.running = false;
+		console.log('Stopped...');   
+    }
+}
+const v1=new Vehicle();
+V1.start()
+V2.stop()

@@ -1,0 +1,9 @@
+<!-- Create an object called calculator. 
+Inside your object give your object a brand name as a property and methods named add, subtract, divide, and multiply.
+ Make sure to add the necessary parameters to your methods and logic. 
+ Invoke your methods to test to make sure they run! -->
+
+ console.log("hi")
+
+
+ let 
